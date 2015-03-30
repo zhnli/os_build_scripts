@@ -1,3 +1,6 @@
+#
+# Usage: fab localhost menu
+#
 from fabric.operations import local, run, prompt
 from fabric.api import task
 from fabric.state import env
